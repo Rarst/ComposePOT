@@ -1,4 +1,4 @@
-# ComposePOT — WordPress POT tools reboot
+# ComposePOT — WP MakePOT reboot
 
 ComposePOT (`compot`) is a fork of MakePOT tools (and related classes) for working with gettext files from WordPress core.
 
