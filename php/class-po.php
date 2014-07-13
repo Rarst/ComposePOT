@@ -36,7 +36,7 @@ class PO extends Gettext_Translations {
 	 */
 	function export_entries() {
 		//TODO sorting
-		return implode( "\n\n", array_map( array( 'PO', 'export_entry' ), $this->entries ) );
+		return implode( "\n\n", array_map( array( __CLASS__, 'export_entry' ), $this->entries ) );
 	}
 
 	/**
