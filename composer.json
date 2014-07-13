@@ -1,0 +1,23 @@
+{
+	"name"       : "rarst/composepot",
+	"description": "Fork of MakePOT WordPress tools for gettext i18n.",
+	"keywords"   : ["wordpress", "pot", "i18n", "gettext"],
+	"homepage"   : "https://github.com/Rarst/ComposePOT",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Andrey Savchenko",
+			"email"   : "contact@rarst.net",
+			"homepage": "http://www.Rarst.net/"
+		}
+	],
+	"support"    : {
+		"issues": "https://github.com/Rarst/ComposePOT/issues"
+	},
+	"require"    : {
+		"cilex/cilex": "~1.1"
+	},
+	"autoload"   : {
+		"classmap": ["php/"]
+	}
+}
